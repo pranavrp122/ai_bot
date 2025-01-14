@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.v3_7 {
+  width: 100%;
+  height: 750px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v3_2 {
+  width: 745px;
+  height: 378px;
+  background: rgba(217,217,217,1);
+  opacity: 1;
+  position: absolute;
+  top: 54px;
+  left: 360px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  overflow: hidden;
+}
+.v3_5 {
+  width: 139px;
+  color: rgba(30,30,30,1);
+  position: absolute;
+  top: 228px;
+  left: 670px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.v3_6 {
+  width: 721px;
+  height: 189px;
+  background: rgba(217,217,217,1);
+  opacity: 1;
+  position: absolute;
+  top: 487px;
+  left: 372px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  overflow: hidden;
+}
+.v3_8 {
+  width: 471px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 521px;
+  left: 406px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+
+.v6_8 {
+  width: 191px;
+  color: rgba(44,44,44,0.6299999952316284);
+  position: absolute;
+  top: 622px;
+  left: 406px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+  
+}
+
+/* Styles for the Blue Send Button */
+
+.name {
+  color: #fff;
+}
+
+
+/* Input Area Styling */
+.v3_9 {
+  width: 680px;
+  height: 50px;
+  background: rgba(255, 255, 255, 1);
+  opacity: 1;
+  position: absolute;
+  top: 607px;
+  left: 391px;
+  border-radius: 12px;
+  display: flex; /* Align children in a row */
+  align-items: center; /* Vertically align input and button */
+  gap: 10px; /* Space between input and button */
+  padding: 0 10px; /* Padding inside the container */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  overflow: visible; /* Ensure all content is visible */
+}
+
+/* Input Field Styling */
+.message-input {
+  flex: 1; /* Expand to fill available space */
+  height: 100%; /* Match the height of the container */
+  border: none; /* Remove default border */
+  font-family: Inter, sans-serif;
+  font-size: 16px; /* Font size */
+  color: rgba(44, 44, 44, 0.8); /* Text color */
+  outline: none; /* Remove focus outline */
+  padding: 0 10px; /* Padding inside the input */
+  background: none; /* Transparent background */
+}
+
+/* Button Styling */
+.send-button {
+ 
+  height: 85%; /* Match the height of the container */
+  padding: 0 20px; /* Padding for the button */
+  background-color: #007BFF; /* Blue background */
+  color: white; /* White text */
+  border: none; /* Remove default border */
+  border-radius: 8px; /* Rounded corners */
+  font-size: 16px; /* Font size */
+  font-family: Arial, sans-serif; /* Font style */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+/* Button Hover Effect */
+.send-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}

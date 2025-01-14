@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
+    <!-- Link to the CSS file in the static folder -->
+    <link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet" />
+    <title>AI Assistant</title>
+</head>
+<body>
+    <!-- Main container -->
+    <div class="v3_7">
+        <!-- Video panel -->
+        <div class="v3_2"></div>
+        <span class="v3_5">Video Panel</span>
+        
+        <!-- Chat box -->
+        <div class="v3_6"></div>
+        <span class="v3_8">
+            User: Hello!<br>
+            AI: Hi there! How can I assist you today?
+        </span>
+
+<!-- Input Area -->
+<div class="v3_9">
+    <!-- Input Field -->
+    <input id="user-input" type="text" placeholder="Enter your message here..." class="message-input">
+    <!-- Send Button -->
+    <button class="send-button" id="send-button">Send</button>
+</div>
+<div class="name"></div>
+
+
+    <!-- Area to Display AI Responses -->
+    <div id="response-area" class="response-container"></div>
+
+    <!-- Audio Player for AI Response -->
+    <div class="audio-container">
+        <audio id="audio-player" controls style="display: none;"></audio>
+    </div>
+
+    </div>
+
+    
+    <!-- Include JavaScript -->
+    <script src="{{ url_for('static', filename='js/button.js') }}"></script>
+</body>
+</html>
