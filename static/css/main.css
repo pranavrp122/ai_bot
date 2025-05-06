@@ -138,3 +138,9 @@ body {
 .send-button:hover {
   background-color: #0056b3; /* Darker blue on hover */
 }
+
+#avatar-video {
+  margin-left: 91px; /* Adjust the value to move it further */
+}
+
+
